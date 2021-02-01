@@ -1,0 +1,501 @@
+/*Medium Device*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*=================================
+        Manin Menu Start Hear
+=================================*/
+    .main_menu {
+        line-height: 100px;
+        background: #3a3e64;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        padding: 25px 0;
+        margin: 0;
+        line-height: 0;
+    }
+
+    .main_menu .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-nav {
+        background: #3a3e64;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    /*=================================
+        Manin Menu End Hear
+=================================*/
+
+
+    /*=================================
+        Banner Part Start Hear
+=================================*/
+    #banner_part {
+        padding: 182px 0 100px;
+    }
+
+    .banner_text h1 {
+        font-size: 60px;
+    }
+
+    .banner_text p {
+        padding: 0 60px;
+        margin-top: 10px;
+    }
+
+    .banner_text a {
+        font-size: 20px;
+        padding: 13px 100px;
+        margin-top: 30px;
+    }
+
+    /*=================================
+        Banner Part End Hear
+=================================*/
+
+
+    /*=================================
+        Work Part Start Hear
+=================================*/
+    #work_part {
+        padding: 100px 0 90px;
+    }
+
+    .work_box p {
+        padding: 0;
+    }
+
+    /*=================================
+        Work Part End Hear
+=================================*/
+
+
+    /*=================================
+        Project Part Start Hear
+=================================*/
+
+    /* Changes in html index file*/
+
+    /*=================================
+        Project Part End Hear
+=================================*/
+
+
+    /*=================================
+        Work Part Start Hear
+=================================*/
+    .team_text a {
+        margin-bottom: 30px;
+    }
+
+    /*=================================
+        Work Part End Hear
+=================================*/
+
+
+    /*=================================
+        Team Part Start Hear
+=================================*/
+    #team_part {
+        padding: 90px 0 70px;
+    }
+
+    /*=================================
+        Team Part End Hear
+=================================*/
+
+    /*=================================
+        Testimonial Part Start Hear
+=================================*/
+    #testimonial_part {
+        background-position: center right !important;
+    }
+
+    /*=================================
+        Testimonial Part End Hear
+=================================*/
+
+
+    /*=================================
+        Download Part Start Hear
+=================================*/
+    #download_part {
+        padding: 95px 0 100px;
+    }
+
+    .download_text a {
+        font-size: 20px;
+        padding: 13px 80px;
+        margin-top: 15px;
+    }
+
+    .footer_right p {
+        padding: 0 6px;
+    }
+
+    /*=================================
+        Download Part End Hear
+=================================*/
+
+
+
+
+
+
+
+}
+
+/*Small Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*=================================
+        Manin Menu Start Hear
+=================================*/
+    .main_menu {
+        line-height: 100px;
+        background: #3a3e64;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        padding: 25px 0;
+        margin: 0;
+        line-height: 0;
+    }
+
+    .main_menu .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-nav {
+        background: #3a3e64;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    /*=================================
+        Manin Menu End Hear
+=================================*/
+
+    /*=================================
+        Banner Part Start Hear
+=================================*/
+    .banner_text h1 {
+        font-size: 50px;
+    }
+
+    .banner_text p {
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+
+    .banner_text a {
+        font-size: 20px;
+        padding: 14px 90px;
+        margin-top: 30px;
+    }
+
+    #banner_part {
+        padding: 186px 0 100px;
+    }
+
+    /*=================================
+        Banner Part End Hear
+=================================*/
+
+
+    /*=================================
+        Work Part Start Hear
+=================================*/
+    .work_box_mg {
+        margin-top: 0px;
+    }
+
+    .work_box {
+        margin-bottom: 30px;
+    }
+
+    #work_part {
+        padding: 100px 0 65px;
+    }
+
+    .work_box p {
+        padding: 0;
+    }
+
+    .md_marginx {
+        margin-top: 75px;
+    }
+
+    /*=================================
+        Work Part End Hear
+=================================*/
+    /*=================================
+        Team Part Start Hear
+=================================*/
+    #team_part {
+        padding: 78px 0 70px;
+    }
+
+    .team_text a {
+        margin-bottom: 30px;
+    }
+
+    /*=================================
+        Team Part End Hear
+=================================*/
+
+    /*=================================
+        Testimonial Part Start Hear
+=================================*/
+    #testimonial_part {
+        background-position: center right !important;
+    }
+
+
+    /*=================================
+        Testimonial Part End Hear
+=================================*/
+
+    /*=================================
+        Footer Part Start Hear
+=================================*/
+
+
+
+    /*=================================
+        Footer Part End Hear
+=================================*/
+
+    .footer_middle h2,
+    .footer_right h2 {
+        margin-top: 20px;
+    }
+}
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+    /*=================================
+        Manin Menu Start Hear
+=================================*/
+    .main_menu {
+        line-height: 100px;
+        background: #3a3e64;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        padding: 25px 0;
+        margin: 0;
+        line-height: 0;
+    }
+
+    .main_menu .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 10px;
+    }
+
+    .main_menu .navbar-nav {
+        background: #3a3e64;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    /*=================================
+        Manin Menu End Hear
+=================================*/
+
+    /*=================================
+        Banner Part Start Hear
+=================================*/
+    .banner_text h1 {
+        font-size: 25px;
+    }
+
+    .banner_text p {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    .banner_text a {
+        margin-top: 20px;
+    }
+
+    #banner_part {
+        padding: 150px 0 70px;
+    }
+
+    /*=================================
+        Banner Part End Hear
+=================================*/
+
+
+
+    /*=================================
+        Work Part Start Hear
+=================================*/
+    .work_box_mg {
+        margin-top: 0px;
+    }
+
+    .work_box {
+        margin-bottom: 30px;
+    }
+
+    #work_part {
+        padding: 70px 0 35px;
+    }
+
+    .work_box p {
+        padding: 0;
+    }
+
+    /*=================================
+        Work Part End Hear
+=================================*/
+
+
+    /*=================================
+        Project Part Start Hear
+=================================*/
+    .project_img {
+        margin-bottom: 30px;
+    }
+
+    /*=================================
+        Project Part End Hear
+=================================*/
+
+
+    /*=================================
+        Team Part Start Hear
+=================================*/
+    #team_part {
+        padding: 40px 0;
+    }
+
+    .team_text a {
+        margin-bottom: 30px;
+    }
+
+    /*=================================
+        Team Part End Hear
+=================================*/
+
+
+    /*=================================
+        Testimonial Part Start Hear
+=================================*/
+    #testimonial_part {
+        background-position: center right !important;
+    }
+
+    #testimonial_part {
+        padding: 60px 0 20px;
+    }
+
+    .test_slider .slick-dots {
+        bottom: 50px;
+    }
+
+    .test_slider .slide_item h2 {
+        font-size: 24px;
+    }
+
+    .test_slider .slide_item h5 {
+        font-size: 12px;
+        padding-top: 18px;
+    }
+
+    /*=================================
+        Testimonial Part End Hear
+=================================*/
+
+
+    /*=================================
+        Download Part Start Hear
+=================================*/
+    #download_part {
+        padding: 60px 0 70px;
+    }
+
+    .download_text h2 {
+        padding: 0;
+    }
+
+    .download_text h2 {
+        font-size: 20px;
+    }
+
+    .download_text h5 {
+        font-size: 11px;
+    }
+
+    .download_text a {
+        padding: 10px 45px;
+        margin-top: 15px;
+    }
+
+    /*=================================
+        Download Part End Hear
+=================================*/
+
+
+    /*=================================
+        Footer Part Start Hear
+=================================*/
+    .footer_top {
+        padding: 70px 0 67px;
+    }
+
+    .footer_left h2,
+    .footer_middle h2,
+    .footer_right h2 {
+        margin-bottom: 10px;
+    }
+
+    .footer_middle h2,
+    .footer_right h2 {
+        margin-top: 20px;
+    }
+
+    /*=================================
+        Footer Part End Hear
+=================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
