@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+    padding: 0;
+    margin: 0;
+}
+/* All Fonts Gose Hear */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+/* All Fonts Gose Hear */
+
+/*========================================
+        Common CSS End Hear
+==========================================*/
+
+/*========================================
+        Menu Part Start Hear
+==========================================*/
+.main_menu{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.main_menu .navbar-nav .nav-item .nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0;
+    margin: 0  0 0 60px;
+    -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.main_menu .navbar-nav .nav-item .nav-link:hover{
+    color: #e84545;
+}
+.menu_fixed{
+    position: fixed;
+    height: 100px;
+    background: #3a3e64;
+    z-index: 9999;
+}
+.menu_bar{
+    color: #ffffff;
+    font-size: 40px;
+}
+/*========================================
+        Menu Part End Hear
+==========================================*/
+
+/*========================================
+        Banner Part Start Hear
+==========================================*/
+#banner_part{
+    padding: 250px 0 155px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+.banner_text h1{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner_text h1 span{
+    display: block;
+    margin-top: -10px;
+}
+.banner_text p{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 0 200px;
+    margin-top: 20px;
+}
+.banner_text a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 18px 55px;
+    background: #e84545;
+    border-radius: 5px;
+    margin-top: 70px;
+    -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.banner_text a:hover{
+    color: #e84545;
+    background: #ffffff;
+}
+/*========================================
+        Banner Part End Hear
+==========================================*/
+
+/*========================================
+        Work Part Start Hear
+==========================================*/
+#work_part{
+    padding: 120px 0; 
+}
+.work_box h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+.work_box p{
+    font-family: 'Raleway', sans-serif;
+    color: #6c7279;
+    line-height: 22px;
+    margin-top: 15px;
+    padding: 0 30px;
+}
+.work_box_mg{
+    margin-top: 75px;
+}
+/*========================================
+        Work Part Start Hear
+==========================================*/
+
+/*========================================
+        Project Part Start Hear
+==========================================*/
+.project_img{
+    position: relative;
+}
+.project_img .overly{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: rgba(232, 69, 69, 0.9);
+    text-align: center;
+        -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.project_img .overly .overly_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.project_img:hover .overly{
+    width: 100%;
+    height: 100%;
+}
+.project_img .overly h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    visibility: hidden;
+        -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.project_img .overly p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 5px;
+    visibility: hidden;
+        -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.project_img:hover .overly h3{
+    visibility: visible;
+}
+.project_img:hover .overly p{
+    visibility: visible;
+}
+/*========================================
+        Project Part Start Hear
+==========================================*/
+
+
+/*========================================
+        Team Part Start Hear
+==========================================*/
+#team_part{
+    padding: 100px 0;
+}
+.team_text h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2d3033;
+    margin-top: 25px;
+}
+.team_text h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #e84545;
+    margin-top: 5px;
+}
+.team_text p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #6c7279;
+	line-height: 21px;
+	margin-top: 20px;
+	letter-spacing: .16px;
+}
+.team_text a{
+    width: 40px;
+    height: 40px;
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 25px;
+    -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.team_text a:hover{
+    color: #ffffff;
+    background: #e84545;
+    border-color: #e84545;
+}
+/*========================================
+        Team Part End Hear
+==========================================*/
+
+/*========================================
+        Testimonial Part Start Hear 
+==========================================*/
+#testimonial_part{
+    background: url(../img/testimonial.jpg);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    padding: 100px 0;
+}
+.test_slider .slide_item h2{
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 42px;
+    font-style: italic;
+}
+.test_slider .slide_item h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.test_slider .slick-dots li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #755d6e;
+    border: none;
+}
+.test_slider .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    padding-top: 100px;
+    transform: translateX(-50%);
+}
+.test_slider .slick-dots li{
+    display: inline;
+    margin-right: 10px;
+}
+.test_slider .slick-dots li.slick-active button{
+    background: #ffffff;
+    width: 12px;
+    height: 12px;
+}
+.test_slider .slick-dots li.slick-active button:focus{
+    outline: 0;
+}
+
+/*========================================
+        Testimonial Part End Hear 
+==========================================*/
+
+/*========================================
+        Download Part Start Hear
+==========================================*/
+#download_part{
+    padding: 100px 0;
+}
+.download_text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: #2d3033;
+}
+.download_text h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #2d3033;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.download_text a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 18px 80px;
+    background: #e84545;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+/*========================================
+        Download Part Start Hear
+==========================================*/
+
+
+/*========================================
+        Footer Part Start Hear
+==========================================*/
+.footer_top{
+    padding: 70px 0 100px;
+    background: #3a3e64;
+}
+.footer_left h2,
+.footer_middle h2,
+.footer_right h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer_left p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #afb0bc;
+}
+.footer_left p span{
+    display: block;
+}
+.footer_middle a{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    line-height: 40px;
+    color: #ffffff;
+    background: transparent;
+    margin-right: 5px;
+    -webkit-transition: all linear .3s;
+-moz-transition: all linear .3s;
+-ms-transition: all linear .3s;
+-o-transition: all linear .3s;
+transition: all linear .3s; 
+}
+.footer_middle a:hover{
+    background: #e84545;
+    border-color: #e84545;
+}
+.footer_right p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #afb0bc;
+    padding: 0 50px;
+}
+
+.footer_bottom{
+    padding: 30px;
+    background: #313454;
+}
+.footer_bottom p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+.footer_bottom p span{
+    color: #ffffff;
+}
+.footer_bottom p .hrt{
+    color: #e84545;
+}
+/*========================================
+        Footer Part Start Hear
+==========================================*/
+
+/* Active Box Design End Hear */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
